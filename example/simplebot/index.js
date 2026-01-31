@@ -6,4 +6,4 @@ client.once(Events.ClientReady, c => {
   console.log(`Successfully logged in as ${c.user.username}!`);
 });
 
-client.login("some token")
+client.login("some token");
