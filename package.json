@@ -1,0 +1,34 @@
+{
+  "name": "multi-bot-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "./dist/index.js",
+  "directories": {
+    "example": "example"
+  },
+  "scripts": {
+    "dev": "nodemon ./src/index.ts",
+    "build": "tsc",
+    "start": "./dist/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BackwardsUser/multi-bot-test.git"
+  },
+  "keywords": [],
+  "author": "BackwardsUser <AlexHardingYT@gmail.com> (https://github.com/BackwardsUser)",
+  "license": "MIT",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/BackwardsUser/multi-bot-test/issues"
+  },
+  "homepage": "https://github.com/BackwardsUser/multi-bot-test#readme",
+  "devDependencies": {
+    "nodemon": "^3.1.11",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.9.3"
+  },
+  "dependencies": {
+    "discord.js": "^14.25.1"
+  }
+}
