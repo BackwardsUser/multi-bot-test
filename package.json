@@ -24,6 +24,7 @@
   },
   "homepage": "https://github.com/BackwardsUser/multi-bot-test#readme",
   "devDependencies": {
+    "@types/node": "^25.2.2",
     "nodemon": "^3.1.11",
     "ts-node": "^10.9.2",
     "typescript": "^5.9.3"
