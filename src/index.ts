@@ -42,9 +42,6 @@ async function main() {
       botFiles.delete(token);
     }
   }
-
-  console.log(botFiles.keys());
-
 }
 
 main();
